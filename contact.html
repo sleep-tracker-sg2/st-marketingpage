@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="">
+    <meta name="robots" content="index, follow">
+    <meta name="revisit-after" content="7 days">
+    <meta name="handheldfriendly" content="true">
+    <meta name="mobileoptimized" content="320">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <title>Contact</title>
+</head>
+
+<body>
+    <div id="nav__wrapper">
+        <div class="nav__flexbox">
+            <h1 class="nav__logo">SleepTra<span><img src="./images/moon3.png" alt="moon" height="35" width="35"
+                        style="padding: 5px 3px 0 3px;" /></span>ker</h1>
+            <nav class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a class="nav__link" href="index.html">Home</a></li>
+                    <li class="nav__item"><a class="nav__link" href="about.html">About Us</a></li>
+                    <li class="nav__item"><a class="nav__link" href="products.html">Login</a></li>
+                    <li class="nav__item"><a class="nav__link" href="services.html">SignUp</a></li>
+                    <li class="nav__item nav__item-active"><a class="nav__link" href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div><!-- end of flexbox -->
+
+        <!-- mobile nav log and buttons -->
+        <div id="mobile__nav-logo">
+            <h1 class="nav__logo">SleepTra<span><img src="./images/moon3.png" alt="moon" height="35"
+                        width="35" /></span>ker</h1>
+        </div>
+
+        <div id="mobile__nav-button"></div>
+
+    </div><!-- end of wrapper -->
+
+    <div class="mobile__nav-menu">
+        <div id="mobile__nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="products.html">LogIn</a></li>
+            <li><a href="services.html">SignUp</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </div>
+    </div><!-- end of mobile menu -->
+    <!-- End of Navigation-->
+
+    <main style="margin-top: 150px">
+        <div id="wrapper" style="margin: 0 auto; width: 80%;">
+
+        </div>
+    </main>
+
+    <section>
+
+        <div class="contact">
+            <h1 style="font-size: 36px; padding-bottom: 20px;">Contact</h1>
+            <a name="emailMe"></a>
+
+            <form class="" id="my_form" onsubmit="submitForm(); return false;">
+                <label for="n" class="name">Name
+                    <input id="n" type="text" required>
+                </label>
+
+                <label for="e" class="email">Email
+                    <input id="e" type="email" required>
+                </label>
+
+                <label for="m" class="message">Message
+                    <textarea id="m" rows="10" required></textarea>
+                </label>
+
+                <input class="submit" id="submitBtn" type="submit" value="Send Email">
+                <span id="status" class="status"></span>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <div class="footer__company">
+                <h1>SleepTracker</h1>
+                <p>Better Sleep</p>
+                <p>Better Technology</p>
+            </div>
+
+            <div class="footer__flex">
+                <div class="footer__explore">
+                    <h2>Explore</h2>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">AboutUs</a></li>
+                        <li><a href="login.html">Login</a></li>
+                        <li><a href="signup.html">SignUp</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer__visit">
+                    <h2>SleepTracker</h2>
+                    <address>
+                        <p>1621 West 3rd</p>
+                        <p>Suite 28</p>
+                        <p>Sausalito, CA 94965</p>
+                    </address>
+                </div>
+
+
+                <div class="footer__follow">
+                    <h2>Follow</h2>
+                    <ul>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                    </ul>
+                </div>
+                <div class="footer__legal">
+                    <h2>Legal</h2>
+                    <li> <a href="#">Terms</a></li>
+                    <li> <a href="#">Privacy</a></li>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+
+</html>
