@@ -12,8 +12,13 @@
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .contact__intro {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px; 
+    font-weight: 300;
+    padding-bottom: 20px; 
+  }
   .conatc h2 {
-    /* font-family: $ff-ss; */
     font-size: 2rem;
     color: orange;
     text-shadow: 0 1px 1px rgba(0,0,0, .5);
