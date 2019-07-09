@@ -678,11 +678,14 @@ address p:nth-child(1) {
     }
 }
 
-@media screen and (min-width: 450px) {
+/* @media screen and (max-width: 450px) {
     .about__title span {
         display: block;
     }
-}
+    .about__details {
+        display: none;
+    }
+} */
 
 @media screen and (min-width: 500px) {
     #desktop_picture_strip {
