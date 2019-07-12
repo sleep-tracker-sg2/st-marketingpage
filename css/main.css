@@ -315,6 +315,9 @@ body {
     position: relative;
 }
 
+.card__text{
+    text-align: center;
+}
 .card__image-text {
     position: absolute;
     top: 0;
