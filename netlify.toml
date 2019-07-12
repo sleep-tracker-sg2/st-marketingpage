@@ -1,0 +1,4 @@
+[build]
+base='st-marketingpage/'
+publish='st-marketingpage/build'
+command='/'
